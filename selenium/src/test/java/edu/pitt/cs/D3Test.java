@@ -39,7 +39,7 @@ public class D3Test {
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
-
+    // why isnt this passing
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
   }
